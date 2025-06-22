@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Counter App</title>
+  <link rel="stylesheet" href="style6.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="main-text">Interactive Counter</h1>
+    <div class="counter-box">
+  <button id="decrementBtn" onclick="decrement()">-</button>
+  <span id="count">0</span>
+  <button id="incrementBtn" onclick="increment()">+</button>
+</div>
+
+
+    <p id="status">Ready to count!</p>
+
+    <div class="toast" id="toast">Count Updated!</div>
+
+    <div class="toggle-wrapper">
+      <label class="toggle-switch">
+        <input type="checkbox" id="darkModeToggle" onchange="toggleDarkMode()" />
+        <span class="slider"></span>
+      </label>
+      <span class="toggle-label">Dark Mode</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

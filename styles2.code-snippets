@@ -1,0 +1,79 @@
+/* General Page Style */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation Menu */
+.nav {
+  background-color: #2c3e50;
+  list-style: none;
+  margin: 0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav li a:hover {
+  color: #f1c40f;
+}
+
+/* Header Section */
+header {
+  padding: 40px 20px 20px;
+  background: #ecf0f1;
+  overflow: auto; /* To contain floated elements */
+}
+
+header h1 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+header p {
+  margin: 5px 0 0;
+}
+
+/* Profile Image on Top-Right */
+.profile {
+  float: right;
+  width: 150px;
+  margin: 0 0 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Content Sections */
+section {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #34495e;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ecf0f1;
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 50px;
+}

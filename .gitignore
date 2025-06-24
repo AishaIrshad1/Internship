@@ -1,0 +1,20 @@
+# Ignore extra HTML files
+index2.html
+index3.html
+index4.html
+index5.html
+index6.html
+about.html
+
+# Ignore all extra scripts and styles
+script1.js
+style5.css
+style6.css
+styles.css
+
+# Ignore all code-snippet files
+*.code-snippets
+
+# Optional: ignore VS Code config and backup files
+.vscode/
+*.log

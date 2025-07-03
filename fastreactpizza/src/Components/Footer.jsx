@@ -1,5 +1,5 @@
 import React from "react";
-import { useUser } from "../Context/usercontext";
+import { useUser } from "../context/usercontext";
 import { useNavigate } from "react-router-dom";
 
 export default function Footer() {

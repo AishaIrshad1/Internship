@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Item from "../components/item";
+import Item from "../components/Item.jsx";
 import pizza from "../MockData/pizza.json";
 
 export default function Menu() {

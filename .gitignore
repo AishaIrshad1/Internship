@@ -18,3 +18,4 @@ styles.css
 # Optional: ignore VS Code config and backup files
 .vscode/
 *.log
+node_modules/

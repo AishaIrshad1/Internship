@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <div className="flex justify-between items-center bg-yellow-400 p-3">
       <div className="text-2xl">
-        <p>Logo</p>
+        <p>Fast React Pizza Co.</p>
       </div>
 
       <div>

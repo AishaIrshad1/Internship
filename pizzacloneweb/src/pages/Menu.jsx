@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Item from "../Components/Item";
+import Item from "../components/Item";
 import pizza from "../data/pizza.json";
 
 

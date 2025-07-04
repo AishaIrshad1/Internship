@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import useLocation from "../Hooks/useLocation"; // make sure the path is correct
+import useLocation from "../hooks/useLocation"; // make sure the path is correct
 import { useUser } from "../Context/UserContext";
 import { useNavigate } from "react-router-dom";
 
